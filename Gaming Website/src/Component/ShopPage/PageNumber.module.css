@@ -1,0 +1,48 @@
+
+.pageBtn{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+
+.pageNumber{
+    display: flex;
+}
+
+.pageNumber div{
+    min-height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+    color: #1E1E1E;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    margin-right: .5rem;
+    transition: .30s ease;
+    background-color: #EEEEEE;
+}
+
+.backBtn,
+.forwardBtn{
+    margin-right: .5rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #1E1E1E;
+    transition: .30s ease;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    background-color: #EEEEEE;
+}
+
+.backBtn:hover,
+.forwardBtn:hover,
+.active,
+.pageNumber div:hover{
+    color: #fff;
+    background-color: #0171F9;
+}

@@ -1,0 +1,49 @@
+.inputField{
+    display: flex;
+    align-items: center;
+    margin:1rem 0;
+    justify-content: space-between;
+}
+
+
+.input{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 295px;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 0 .8rem;
+    border: 1px solid #fff;
+}
+
+.searchIcon{
+    color: #fff;
+    margin-right: .5rem;
+    font-size:23px;
+}
+
+.input input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    background: none !important;
+}
+
+.input input::placeholder{
+    color: #fff;
+}
+
+.addBtn{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    text-align: center;
+    line-height: 45px;
+}

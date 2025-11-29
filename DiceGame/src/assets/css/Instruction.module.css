@@ -1,0 +1,47 @@
+.instructionContainer{
+    position: absolute;
+    z-index: 1;
+    top:50%;
+    left:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 1rem;
+    transform: translate(-50%, -50%);
+    background-color: rgba(74, 74, 74,.25);
+}
+
+.instructionBox{
+    /* opacity: 0; */
+    min-height:208px;
+    width:794px;
+    padding: 1rem;
+    margin: 0 auto;
+    background-color: #FBF1F1;
+}
+
+.instructionBox h1{
+    margin-bottom: 1rem;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.instructionBox ul {
+    list-style-type: none;
+}
+
+.instructionBox ul li{
+    font-size: 15px;
+    margin-bottom: .5rem;
+    /* font-weight: 550; */
+}
+
+.crossBtn{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}

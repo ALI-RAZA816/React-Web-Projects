@@ -1,0 +1,120 @@
+.gameGrid{
+    display:flex;
+    gap: 100px;
+    margin: 150px 0;
+}
+
+.img{
+    width: 100%;
+    overflow: hidden;
+    max-width: 500px;
+}
+
+.img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.gameGrid div:nth-child(2) h1{
+    color: #1E1E1E;
+    font-size: 27px;
+    margin: 20px 0;
+}
+
+.price span:last-child{
+    color:#0071F8;
+    font-weight: bold;
+    font-size:25px;
+    margin-left: .5rem;
+}
+
+.gameGrid p{
+    font-size: 14px;
+    color: #4A4A4A;
+    margin: 50px 0;
+}
+
+.fields input{
+    height: 50px;
+    width: 80px;
+    border-radius: 120px;
+    outline: none;
+    text-align: center;
+    color: #1E1E1E;
+    padding: 0 .5rem;
+    background: #4a4a4a17;
+    border: 1px solid #adadad;
+}
+
+.fields button{
+    height: 50px;
+    width: 175px;
+    margin-left: .8rem;
+    border-radius: 120px;
+    color: #fff;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: .30s ease;
+    background-color: #EE626B;
+}
+.fields button:hover{
+    background-color:#0071F8;
+}
+
+
+.fields button i{
+    color: #fff;
+    font-size: 18px;
+    margin-right: .5rem;
+}
+
+.gameId{
+    display: flex;
+}
+
+.gameId div:first-child{
+    max-width: 150px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: .8rem;
+}
+
+.gameDetail{
+    margin:3rem 0;
+}
+
+
+.gameId div:first-child span{
+    color: #adadad;
+    font-size: 15px;
+}
+.gameId div:last-child span{
+    color: #0071F8;
+    font-size: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .gameGrid{
+        gap: 50px;
+    }
+
+    .img{
+        min-width:250px !important;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .gameGrid{
+       flex-direction: column;
+    }
+
+    .img{
+        max-width:100% !important;
+    }
+}
+

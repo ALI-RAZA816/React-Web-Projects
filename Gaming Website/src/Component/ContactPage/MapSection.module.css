@@ -1,0 +1,131 @@
+.mapForm{
+    display: flex;
+    gap: 60px;
+    margin: 100px 0;
+}
+
+.left,
+.right{
+    border-radius: 20px;
+    padding: 4rem;
+    width: 100%;
+    max-width:50%;
+    overflow: hidden;
+    background-color: #F7F7F7;
+}
+
+.right{
+    padding: 0 !important;
+    background: none !important;
+}
+
+.left > span{
+    font-weight: bold;
+    font-size: 15px;
+    color:  #EE626B;
+    text-transform: uppercase;
+}
+
+.left h1{
+    color: #1E1E1E;
+    font-size: 36px;
+    margin-top:20px;
+}
+
+.left p{
+    color: #4A4A4A;
+    font-size: 15px;
+    margin: 50px 0;
+}
+
+.addressDetail div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.addressDetail div span:first-child{
+    color: #1E1E1E;
+    font-weight: bold;
+    margin-bottom: .2rem;
+}
+
+.addressDetail div span:last-child{
+    color: #4a4a4abe;
+}
+
+.map iframe{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.form div{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.form div input{
+    height: 50px;
+    font-size: 15px;
+    margin-right: 2rem;
+    width: 100%;
+    max-width: 380px;
+    padding: 0 1rem;
+    border-radius: 120px;
+    border: 1px solid #efefef;
+    background-color: #F7F7F7;
+}
+
+.form div input:last-child{
+    margin-right: 0 !important;
+}
+
+.form div textarea{
+    width: 100%;
+    font-size: 15px;
+    background-color: #F7F7F7;
+    font-family: 'Poppins';
+    border-radius: 15px;
+    padding: 1rem;
+    border: 1px solid #efefef;
+}
+
+.form button{
+    height: 50px;
+    width: max-content;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 120px;
+    padding: 0 1rem;
+    cursor: pointer;
+    background-color: #EE626B;
+}
+
+@media screen and (max-width:992px) {
+    .form div{
+        flex-direction: column;
+    }
+
+    .form div input{
+        max-width: 100% !important;
+    }
+
+    .form div input:first-child{
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .mapForm{
+        flex-direction: column;
+    }
+    .left,
+    .right{
+        max-width: 100% !important;
+    }
+}

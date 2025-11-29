@@ -1,0 +1,151 @@
+.gamesMain{
+    padding:120px 0 ;
+    margin: 120px 0 ;
+    border-radius: 200px;
+    background-color: #eeeeee;
+}
+
+/* .heading{
+    margin-top: 8rem;
+} */
+
+.heading span {
+    color: #EE626B;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.heading h1 {
+    color: #1E1E1E;
+    font-size: 36px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.heading h1 button {
+    float: right;
+    height: 50px;
+    width: 120px;
+    border-radius: 120px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #EE626B;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.gamesGrid {
+    display: grid;
+    gap: 30px;
+    margin-top: 3.5rem;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.gamesGrid .box {
+    position: relative;
+    cursor: pointer;
+    /* overflow: hidden; */
+    border-radius: 20px;
+    background-color: #fff;
+    /* background-color: #EEEEEE; */
+}
+
+.gamesGrid .box img {
+    height: 180px;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.box div:nth-child(2){
+    padding: .8rem 1.5rem;
+    display: flex;
+    margin-top: -.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.box div:nth-child(2) button{
+    position: absolute;
+    bottom: -22px;
+    height: 40px;
+    width: 93px;
+    border-radius: 120px;
+    color: #fff;
+    background-color: #EE626B;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.box div:nth-child(2) span{
+    color: #929292;
+    line-height: 10px;
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+.box div:nth-child(2) h2{
+    font-size: 17px;
+    line-height: 0;
+    color: #1E1E1E;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: flow-root;
+    line-height: 40px;
+    transition: .30s ease;
+}
+
+.box:hover div:nth-child(2) h2{
+    color: #0171F9;
+}
+
+
+@media screen and (max-width:1200px) {
+    .gamesGrid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+   
+}
+@media screen and (max-width:992px) {
+    .gamesMain{
+        border-radius: 100px;
+    }
+    .gamesGrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+   
+}
+@media screen and (max-width:768px) {
+    .gamesGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+   
+}
+@media screen and (max-width:520px) {
+    .gamesGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .heading h1 {
+        font-size: 25px;
+    }
+
+    .heading h1 button {
+        height: 40px;
+        width: 100px;
+    }
+   
+}
+

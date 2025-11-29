@@ -1,0 +1,47 @@
+.contactItem{
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem .8rem;
+    margin-bottom: .5rem;
+    background-color: #FFEAAE;
+}
+
+.userIcon{
+    font-size: 40px;
+    margin-right: .5rem;
+    color: #F6820C;
+}
+
+.contactItem span{
+    font-size: 16px;
+    font-weight: 550;
+    color: #333;
+    text-align: left;
+    display: block;
+    width: 230px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.contactItem p{
+    overflow: hidden;
+    width: 230px;
+    text-overflow: ellipsis;
+    color: #333;
+    font-size: 15px;
+    text-align: left;
+}
+
+.edit,
+.delete{
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: .5rem;
+    color: #333;
+}
+
+.delete{
+    color: #5F00D9;
+}

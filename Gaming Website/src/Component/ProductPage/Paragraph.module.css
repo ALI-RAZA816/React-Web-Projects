@@ -1,0 +1,8 @@
+.description p:first-child{
+    margin-bottom: .5rem;
+}
+
+.description p{
+    color:#4a4a4a;
+    font-size: 14px;
+}

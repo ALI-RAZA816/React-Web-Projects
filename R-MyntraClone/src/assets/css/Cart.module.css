@@ -1,0 +1,56 @@
+.cart{
+    display: flex;
+    border: 1px solid #4a4a4a34;
+    padding: .6rem .5rem;
+    position: relative;
+}
+
+.cartproductImage{
+    height: 150px;
+    width: 130px;
+    overflow: hidden;
+    background-color: rgba(255, 166, 0, 0.171);
+    margin-right: 10px;
+}
+
+.cartproductImage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cartproductDetail > span{
+    display: block;
+    color: #4A4A4A;
+    font-size: 14px;
+}
+
+.currentPrice{
+    color: #333;
+    font-size: 15px;
+    margin-right: .3rem;
+    font-weight: 550;
+}
+
+.originalPrice{
+    text-decoration: line-through;
+    font-size: 13px;
+    margin-right: .2rem;
+    color: #4A4A4A;
+}
+
+.discount,
+.cartproductDetail p {
+    font-size: 13px;
+    color: #4A4A4A;
+    color: #4A4A4A;
+}
+
+.cartproductDetail p span{
+    font-weight: 550;
+    color: #000;
+}
+
+.cartproductDetail p:last-child span{
+    color: green;
+}

@@ -1,0 +1,150 @@
+.DicePageContainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.topBox{
+    text-align: center;
+    width: 100%;
+    margin: 2.5rem 0;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.scoreBox h1{
+    color: #000;
+    font-weight: 550;
+    margin: 0;
+    line-height: 100px;
+    font-size: 100px;
+}
+
+.scoreBox p{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.diceImage{
+    height: auto;
+    cursor: pointer;
+    max-width: 250px;
+}
+
+.diceImage img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.targetNumber{
+    height:72px;
+    width: 72px;
+    border:1px solid #000;
+    outline: none;
+    background: none;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 1rem;
+    font-size: 24px;
+    transition: background-color .30s ease;
+}
+
+
+.active{
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+.targetNumber:last-child{
+    margin-right: 0 !important;
+}
+
+.targetNumber:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.buttonBox p{
+    text-align: right !important;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    margin-top:1rem;
+}
+
+.buttonBox  p:first-child{
+    color: red !important;
+    font-weight: normal;
+    margin-top:0 !important;
+}
+
+.rulesBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rulesBtn p{
+    color: #333;
+    font-size: 24px;
+    font-weight: 550;
+    margin-bottom:1rem;
+}
+
+.rulesBtn button{
+    height:44px;
+    width: 220px;
+    border: 1px solid #000;
+    color: #000;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:1rem;
+    font-weight: 550;
+}
+.rulesBtn button:last-child{
+    color: #fff;
+    background-color: #000;
+}
+
+
+@media screen and (max-width:768px){
+    .targetNumber{
+        height: 55px;
+        width: 55px;
+        font-size: 20px;
+    }
+
+    .scoreBox h1{
+        font-size: 70px;
+    }
+}
+
+
+@media screen and (max-width:550px){
+    .btns{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+}
+@media screen and (max-width:420px){
+    .btns{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}

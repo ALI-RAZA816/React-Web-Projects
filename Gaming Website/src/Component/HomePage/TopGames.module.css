@@ -1,0 +1,139 @@
+.heading {
+    margin-top: 8rem;
+}
+
+.heading span {
+    color: #EE626B;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.heading h1 {
+    color: #1E1E1E;
+    font-size: 36px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.heading h1 button {
+    float: right;
+    height: 50px;
+    width: 120px;
+    border-radius: 120px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #EE626B;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.gamesGrid {
+    display: grid;
+    gap: 30px;
+    margin-top: 3.5rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gamesGrid .box {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #EEEEEE;
+}
+
+.gamesGrid .box img {
+    height: 220px;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.box div:nth-child(2) {
+    padding: 1rem 1.5rem;
+}
+
+.box div:nth-child(2) span {
+    color: #929292;
+    font-size: 14px;
+}
+
+.box div:nth-child(2) h2 {
+    font-size: 17px;
+    color: #1E1E1E;
+    font-weight: bold;
+    display: flow-root;
+    line-height: 40px;
+    transition: .30s ease;
+}
+
+.box div:nth-child(2) h2 i {
+    height: 40px;
+    width: 40px;
+    transition: .30s ease;
+    font-size: 15px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background-color: #EE626B;
+    float: right;
+}
+
+.box div:nth-child(3) {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0171F9;
+    border-radius: 8px;
+    padding: .3rem .7rem;
+}
+
+.box div:nth-child(3) span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.box div:nth-child(3) span:first-child {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.box:hover div:nth-child(2) h2 {
+    color: #0171F9;
+}
+
+.box:hover div:nth-child(2) h2 i {
+    background-color: #0171F9;
+}
+
+@media screen and (max-width:992px) {
+    .gamesGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .gamesGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .heading h1 {
+        font-size: 25px;
+    }
+
+    .heading h1 button {
+        height: 40px;
+        width: 100px;
+    }
+
+}

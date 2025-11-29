@@ -1,0 +1,74 @@
+.welcomeScreenContainer {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.leftBox {
+    height: 500px;
+    max-width: 650px;
+}
+
+.leftBox img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.rightBox h1 {
+    text-wrap: nowrap;
+    font-size: 96px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.rightBox button {
+    height: 40px;
+    width: 100%;
+    max-width: 220px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #000;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+}
+
+@media screen and (max-width:992px) {
+    .rightBox h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .welcomeScreenContainer {
+        flex-direction: column;
+    }
+
+    .leftBox {
+        height: 400px;
+        max-width:550px;
+    }
+
+    .rightBox{
+        text-align: center;
+    }
+
+    .rightBox button{
+        max-width: 100% !important;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .rightBox h1{
+        font-size: 45px;
+        text-wrap: wrap !important;
+    }
+}

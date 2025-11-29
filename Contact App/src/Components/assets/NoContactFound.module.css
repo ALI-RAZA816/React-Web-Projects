@@ -1,0 +1,24 @@
+.nocontact{
+    display: flex;
+    /* border: 1px solid red; */
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contactText{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.contactText h1{
+    font-size: 28px;
+}
+
+.userIcon{
+    font-size: 35px;
+    margin-right: 1rem;
+}

@@ -1,0 +1,120 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    width: 100vw;
+    padding: 0 .2rem;
+    box-shadow:  0 0 15px #3333333d;
+}
+
+.logo img{
+    height: 50px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.menus ul {
+    height:70px;
+    list-style-type: none;
+    line-height: 68px;
+    display:inline-flex;
+}
+
+.menus ul li{
+    margin-right: 15px;
+}
+
+.menus ul li a{
+    font-size: 15px;
+    font-weight:550;
+    border-bottom: 4px solid transparent;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 0 .5rem;
+}
+
+.menus ul li a:hover{
+    border-bottom-color:rgb(241, 51, 83);
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    overflow: hidden;
+    margin-right:1rem;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0 1rem;
+    max-width: 600px;
+    background-color: #33333318;
+}
+
+.search input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    background: none;
+}
+
+.searchIcon{
+    font-size:20px;
+    margin-right: .8rem;
+}
+
+.profile{
+    display: flex;
+}
+
+.users,
+.wishlist,
+.bag{
+    display: flex;
+    align-items: center;
+    margin-right: 18px;
+    flex-direction: column;
+}
+
+.users span,
+.wishlist span,
+.bag span{
+    font-size: 12px;
+    font-weight: 550;
+    margin-top: .2rem;
+}
+
+.usersIcon,
+.wishlistIcon,
+.bagIcon{
+    font-size: 20px;
+}
+
+.bag{
+    position: relative;
+}
+
+.bagRoute{
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    text-decoration: none;
+}
+
+.counting {
+    display: flex;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+    border-radius: 50%;
+    position:absolute;
+    top: -10px;
+    right: -15px;
+    background-color: rgb(250, 77, 106);
+}

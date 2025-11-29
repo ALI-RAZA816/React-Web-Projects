@@ -1,0 +1,149 @@
+.shopGrid {
+    display: grid;
+    margin-top: 180px;
+    margin-bottom: 280px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box2 {
+    border-radius: 15px;
+    overflow: hidden;
+    transform: scale(1.2);
+}
+
+.box2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box1,
+.box3 {
+    display: flex;
+    padding: 0 4rem;
+    justify-content: center;
+    align-items: start;
+    min-height: 420px;
+    flex-direction: column;
+    position: relative;
+    z-index:1;
+    top: 115px;
+    left: 100px;
+    background-color: #F7F7F7;
+    border-radius: 20px;
+    transform: scale(1.2);
+}
+
+.box1>span,
+.box3>span {
+    color: #EE626B;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.box1 h1,
+.box3 h1 {
+    font-size: 30px;
+    color: #1E1E1E;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.box1 h1 span,
+.box3 h1 span {
+    color: #0171F9;
+}
+
+.box1 p {
+    color: #4A4A4A;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+    /* text-transform: capitalize; */
+}
+
+.box1 button {
+    margin-top: 50px;
+    height: 45px;
+    width: 137px;
+    border-radius: 120px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #EE626B;
+}
+
+.box3 {
+    min-height: 334px;
+    left: -102px;
+    top: 216px;
+}
+
+.subscription {
+    height: 50px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    max-width: 406px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 120px;
+}
+
+.subscription input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 1rem;
+}
+
+.subscription button {
+    height: 50px;
+    min-width: 150px;
+    border-radius: 120px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #EE626B;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:992px) {
+
+    .shopGrid {
+        gap: 50px;
+        grid-template-columns: 1fr;
+    }
+
+    .box2 {
+        display: none;
+    }
+
+    .box1,
+    .box3 {
+        left: 0 !important;
+        top: 0 !important;
+        transform: scale(1);
+        z-index: 0;
+    }
+
+    .shopGrid {
+        margin-top: 180px;
+        margin-bottom: 180px;
+    }
+}
+
+@media screen and (max-width:520px) {
+
+    .box1,
+    .box3 {
+        padding: 0 1rem;
+    }
+}

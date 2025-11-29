@@ -1,0 +1,110 @@
+{
+    "items" :[
+        [
+            {
+                "id" : "001",
+                "image" : ".......",
+                "company" : "Carlton London",
+                "item_name" : "Rhodium-Plated CZ Floral Studs",
+                "original_price": 625,
+                "current_price" : 23,
+                "discount_percentage" : 42,
+                "return_period" : 14,
+                "delivery_date" : "14 Nov 2025",
+                "ratings" : { "stars" : 4.5, "count" : 1400 }
+
+            },
+            {
+                "id" : "002",
+                "image" : ".......",
+                "company" : "Nivea",
+                "item_name" : "Men Fresh Deodrant 150ml",
+                "original_price": 295,
+                "current_price" : 55,
+                "discount_percentage" : 82,
+                "return_period" : 2,
+                "delivery_date" : "14 Nov 2025",
+                "ratings" : { "stars" : 4.5, "count" : 1400 }
+
+            },
+            {
+                "id" : "003",
+                "image" : ".......",
+                "company" : "The Indian Garage Co",
+                "item_name" : "Men Slim Fit Regular Shorts",
+                "original_price": 295,
+                "current_price" : 55,
+                "discount_percentage" : 82,
+                "return_period" : 2,
+                "delivery_date" : "14 Nov 2025",
+                "ratings" : { "stars" : 4.5, "count" : 1400 }
+
+            },
+            {
+                "id" : "004",
+                "image" : ".......",
+                "company" : "Nike",
+                "item_name" : "Men ReactX Running Shoes",
+                "original_price": 295,
+                "current_price" : 55,
+                "discount_percentage" : 82,
+                "return_period" : 2,
+                "delivery_date" : "14 Nov 2025",
+                "ratings" : { "stars" : 4.5, "count" : 1400 }
+
+            },
+            {
+                "id" : "005",
+                "image" : ".......",
+                "company" : "Roadster",
+                "item_name" : "Pure Cotton T-shirt",
+                "original_price": 295,
+                "current_price" : 55,
+                "discount_percentage" : 82,
+                "return_period" : 2,
+                "delivery_date" : "14 Nov 2025",
+                "ratings" : { "stars" : 4.5, "count" : 1400 }
+
+            },
+            {
+                "id" : "006",
+                "image" : ".......",
+                "company" : "ADIDAS",
+                "item_name" : "Pakistan Cricket ODI Jersy",
+                "original_price": 295,
+                "current_price" : 55,
+                "discount_percentage" : 82,
+                "return_period" : 2,
+                "delivery_date" : "14 Nov 2025",
+                "ratings" : { "stars" : 4.5, "count" : 1400 }
+
+            },
+            {
+                "id" : "007",
+                "image" : ".......",
+                "company" : "Randon",
+                "item_name" : "Women Red & White Printed A-Line Knee-Length Skirts",
+                "original_price": 295,
+                "current_price" : 55,
+                "discount_percentage" : 82,
+                "return_period" : 2,
+                "delivery_date" : "14 Nov 2025",
+                "ratings" : { "stars" : 4.5, "count" : 1400 }
+
+            },
+            {
+                "id" : "008",
+                "image" : ".......",
+                "company" : "Cukoo",
+                "item_name" : "Women Padded Halter Neck Swimming Dress",
+                "original_price": 295,
+                "current_price" : 55,
+                "discount_percentage" : 82,
+                "return_period" : 2,
+                "delivery_date" : "14 Nov 2025",
+                "ratings" : { "stars" : 4.5, "count" : 1400 }
+
+            }
+        ]
+    ]
+}

@@ -1,0 +1,42 @@
+.dscContainer {
+    padding: 5rem 4rem;
+    border-radius: 25px;
+    margin-bottom: 100px;
+    background-color: #F7F7F7;
+}
+
+.btn {
+    display: flex;
+}
+
+.btn button {
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #1E1E1E;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: none;
+}
+
+.active {
+    color: #0171F9 !important;
+}
+
+.btn button:last-child {
+    padding-left: .8rem;
+}
+
+.btn button:first-child {
+    padding-right: .8rem;
+    border-right: 1px solid #4A4A4A;
+}
+
+
+@media screen and (max-width:550px) {
+    .dscContainer {
+        padding: 4rem 2rem;
+    }
+}

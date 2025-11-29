@@ -1,0 +1,44 @@
+.menus ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 100px 0;
+}
+
+
+.menus ul li {
+    text-align: center;
+    height: 38px;
+    min-width: 115px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    border-radius: 120px;
+    line-height: 38px;
+    font-weight: bold;
+    margin-right: 1.3rem;
+    cursor: pointer;
+    transition: .30s ease;
+    background-color: #EEEEEE;
+    /* background-color: #EE626B; */
+}
+
+.menus ul li:hover {
+    color: #EE626B;
+}
+
+.active {
+    color: #fff !important;
+    background-color: #EE626B !important;
+}
+
+@media screen and (max-width:520px) {
+    .menus ul li {
+        min-width:max-content;
+        font-size: 13px;
+        padding: 0 .5rem;
+        font-size: 12px;
+        margin-right: .6rem;
+    }
+}

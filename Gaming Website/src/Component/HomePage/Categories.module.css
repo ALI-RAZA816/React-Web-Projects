@@ -1,0 +1,77 @@
+.heading{
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.heading span {
+    color: #EE626B;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.heading h1 {
+    color: #1E1E1E;
+    font-size: 36px;
+    margin-top: 20px;
+    text-transform:capitalize;
+    font-weight: bold;
+}
+
+.gamesGrid {
+    display: grid;
+    gap: 30px;
+    margin-top: 3.5rem;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.gamesGrid .box {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    height: 289px;
+    border-radius: 20px;
+    /* background-color: #EEEEEE; */
+    background-color:#0171F9 ;
+}
+
+.gamesGrid .box img {
+    height: 220px;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: .2rem;
+}
+
+
+.box h1{
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    margin:20px 0;
+}
+
+@media screen and (max-width:992px) {
+    .gamesGrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .gamesGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .gamesGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .heading h1{
+        font-size: 25px;
+    }
+}
+
+
