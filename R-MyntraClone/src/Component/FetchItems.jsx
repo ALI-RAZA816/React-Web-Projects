@@ -13,7 +13,7 @@ export default function FetchItems() {
         const controller = new AbortController();
         const signal = controller.signal;
         dispatch(fetchSliceActions.markfetchingStart());
-        fetch(`${process.env.REACT_API_URL}/items`, { signal })
+        fetch('http://localhost:8080/items', { signal })
         .then((res) => res.json())
         .then(({ items }) => {
             dispatch(fetchSliceActions.markfetchDone());
